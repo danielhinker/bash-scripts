@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Opens browser and pulls up google and your search
+# Example: google <search-sentence>
+
+search=$@
+open "http://google.com/search?q=$search"
