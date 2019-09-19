@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Type "vscode <file_name>" in order to open it in Visual Studio Code
+open "$1" -a Visual\ Studio\ Code 
