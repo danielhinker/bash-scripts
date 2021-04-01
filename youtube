@@ -1,0 +1,7 @@
+#!/bin/bash
+s=$1
+for x in ${@:2}; do
+	s+='+'
+		s+=$x
+		done
+		open "https://youtube.com/results?search_query=$s"
